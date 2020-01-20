@@ -1,0 +1,73 @@
+<html><head>
+    <link rel="stylesheet" type="text/css" href="firstpage.css">
+    <style>
+        h1{
+            text-align: center;
+            color: darkgrey;
+            margin: 25px;
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+
+        #signup{
+            margin: 55px auto;
+            margin-left: 587px;
+            width: 325px;
+            color: steelblue;
+            font-size: 20px;
+            font-style: normal;
+        }
+
+        input{
+            padding: 10px 89px;
+            opacity: 0.6;
+    
+        }
+
+        button{
+            padding: 8.5px 143px;
+            margin-left: 3px;
+            margin-top: 50px;
+            background-color: rgba(238, 57, 57, 0.651);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+        }
+
+        body{
+            
+            background-image: url("register.jpeg");
+            background-repeat: no-repeat;
+            background-size:cover;
+
+            /*
+            background-color: black;*/
+          
+
+        }
+    </style>
+</head>
+
+    <body>
+        <h1>Registration form</h1>
+<div id="container">
+    <div id="x">
+        <table id="signup">
+            <form name="form2" method = "POST" action="http://localhost/signup.php">
+            <tr><td><h5>Username: </h5></td></tr>
+            <tr><td><input type="text" class="input" placeholder="Create username" name="uname"><br></td></tr>
+            <tr><td><h5>E-mail:</h5></td></tr>
+            <tr><td><input type="text" class="input" placeholder="Enter email address" name="email"><br></td></tr>
+            <tr><td><h5>Password: </h5></td></tr>
+            <tr><td><input type="password" class="input" placeholder="Create password" name="pswd"></td></tr>
+            <tr><td><h5>Confirm: </h5></td></tr>
+            <tr><td><input type="password" class="input" placeholder="Confirm password" name="pswd2"></td></tr>
+            <tr><td><button type="submit" value="Register">Sign Up</button></td></tr>
+            
+        </table>
+        
+    </form>
+    </div>
+</div>
+</body>
+</html>
