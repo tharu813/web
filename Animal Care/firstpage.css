@@ -1,0 +1,300 @@
+#x{
+width:97%;
+margin-top:0px;
+margin-bottom:0px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(255, 255, 255);
+ }
+#xh{
+  width: 100%;
+  height: 110px;
+}
+
+#header{
+  width: 103%;
+  height:50%;
+  text-align: right;
+  background-color: rgb(255,218,218);
+  color:rgb(255, 255, 255);
+  }
+
+  #info{
+    float:right;
+    margin-right: 50px;
+    color: rgb(0, 0, 0);
+  } 
+
+#y{
+  width: 97%;
+  height:400px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 0px;
+}
+
+
+
+#z{
+  width: 1000px ;
+  height: 400px;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+
+
+/*#box{
+  width: 400px;
+  height: 100%;
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgb(0, 0, 0);
+
+}
+
+#login{
+display: inline block;
+margin-left: 40px;
+margin-top: 10px;
+}*/
+
+/*#content{
+  width:400px;
+  height: 0px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  text-indent: 250px;
+  text-align: center;
+  background-color: rgb(161, 98, 161);
+}*/
+
+#about{
+  
+  text-align: center center !important;
+  text-indent: 485px;
+  margin-left: 300px;
+}
+
+#review{
+  width:97%;
+  height: 700px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%;
+  text-indent: 50px;
+}
+
+#petfirst{
+  
+  font-family: Arial, Helvetica, sans-serif;
+color:rgb(248, 232, 232);
+  font-weight: 200;
+  text-align: center;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("16.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.column{
+  float: left;
+  width: 20%;
+  height: 650px;
+  padding: 0 10px;
+  color:black;
+}
+.row{
+  margin: 0 50px;
+
+}
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  text-align: center;
+  background-color: #f1f1f1;
+  text-align:justify;
+  font-size:small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: inherit;
+}
+
+.dimage{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+#footer{
+  width: 99.1%;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: -20px;
+  background-color: rgb(255, 187, 187);
+  opacity:0.7;
+  text-indent: 50px;
+  color: rgb(8, 9, 80);
+  
+}
+
+#logo{
+  float: left;
+  width:189px;
+  height:172px;
+  margin-left: 28px;
+  margin-bottom: 33px;
+  margin-top: -38px;
+ /* opacity: 500;*/
+}
+
+#nav{
+  font-size: larger;
+  text-align: center;
+  width:100%;
+  height: 15%;
+  margin-left: 3%;
+  display: inline;
+
+}
+
+span.text{
+  text-align: center;
+  margin-top: -3400px;
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  
+}
+
+/*nav*/
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+ul li{
+  float: right;
+  width: 200px;
+  height: 40px;
+  background-color:black;
+  opacity: .7;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 2px;
+  
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  display: block;
+}
+ul li a:hover{
+  background-color:grey;
+}
+ul li ul li{
+  display:none;
+
+}
+ul li:hover ul li {
+  display:block;
+}
+
+/*Login Form*/
+.bt{
+  padding: 10.5px 134.1px;
+  margin-top: 15px;
+  background-color: rgb(209, 37, 37);
+  color: white;
+}
+
+input{
+  padding: 6px 75px;
+  margin-top: -15px;
+}
+
+span.hd{
+  float: left;
+  text-indent: 158px;
+  margin-top: 10px;
+}
+
+.cancel{
+  padding: 4px 20px;
+  margin-top: 10px;
+}
+
+#admin{
+  float: left;
+  margin-top: 9px;
+  margin-left: 46px;
+}
+
+.bt2{
+  background-color: rgb(79, 168, 79);
+  padding: 3px 12px;
+  opacity: .8;
+  shape-outside: ellipse(55%);
+}
+
+/*sign up line*/
+#sup{
+  margin-top: 30px;
+  margin-left: 45px;
+  color: white;
+}
+
+#new{
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*#about{
+  background-color: rgb(105, 82, 54);
+  width:500px;
+  height: 500px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#contact{
+  height: 200px;
+  width: 500px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgb(29, 97, 74);
+}
+
+h1{
+  color: ;
+}*/
